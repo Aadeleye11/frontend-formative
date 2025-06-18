@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--===============  Remixicons ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!--===============  CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+  <!--===============  Header ===============-->
+  <header class="header" id="header">
+    <nav class="nav nav container">
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li>
+            <a href="#home" class="nav__link active-link">Who am I</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#services" class="nav__link">What I do</a>
+          </li>
+
+          <li>
+            <a href="#experience" class="nav__link">The Journey</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="nav__link">Let's Talk</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-fill"></i>
+        </div>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-fill"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--===============  Main ===============-->
+  <main class="main">
+    <!--===============  Home ===============-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <img src="assets/img/profile.png" alt="" class="home__img">
+
+        <div class="home__data">
+          <h1 class="home__name">Ayomide Adeleye_</h1>
+          <p class="home__work">Data Analyst</p>
+          <dl class="home__list">
+            <dt>AGE:</dt>
+            <dd>18</dd>
+            <dt>PHONE:</dt>
+            <dd>+234 704 9547 831</dd>
+            <dt>EMAIL:</dt>
+            <dd>shadec13@gmail.com</dd>
+            <dt>ADDRESS:</dt>
+            <dd>98 KG 411 Kigali, Rwanda</dd>
+          </dl>
+          <div class="home__socials">
+            <a 
+              href="https://www.linkedin.com/in/ayomide-adeleye-217a8736b"
+              target="blank" class="home__social-link"
+            >
+              <i class="ri-github-fill"></i>
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/ayomide-adeleye/"
+              target="blank"
+              class="home__social-link"
+            >
+              <i class="ri-linkedin-fill"></i>
+            </a>
+            <a 
+              href="https://twitter.com/Shadrach137"
+              target="blank"
+              class="home__social-link"
+            >
+              <i class="ri-twitter-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===============  Hello ===============-->
+    <section class="hello section container">
+      <h2 class="section__title">Hi_</h2>
+
+      <p class="hello__details text-lg">
+        I'm Ayomide Adeleye — a data analyst and aspiring agri-tech innovator
+        passionate about transforming Nigeria’s agricultural landscape through
+        technology. Currently studying at the African Leadership University, 
+        I specialize in turning raw data into meaningful insights using tools 
+        like Python, SQL, and Power BI.
+
+        My mission is to empower small-scale farmers and revolutionize food 
+        systems with data-driven decisions. Whether it’s automating analysis or
+        visualizing impact, I build solutions that matter.
+      </p>
+      <a 
+        href="assets/My Resume.pdf"
+        class="button button--flex text-sm"
+        target="_blank"
+      ><i class="ri-download-line"></i> DOWNLOAD CV </a>
+    </section>
+
+    <!--===============  Skills ===============-->
+    <section class="skills section container" id="skills">
+      <h2 class="section__title">Skills_</h2>
+      <div class="skills__slider">
+        <div class="skills__track">
+          <div class="skills__item"><img src="assets/img/pythonjpg-removebg-preview.png" alt="Python Icon" /></div>
+          <div class="skills__item"><img src="assets/img/sql-removebg-preview.png" alt="SQL Icon" /></div>
+          <div class="skills__item"><img src="assets/img/powerbi.png" alt="Power BI Icon" /></div>
+          <div class="skills__item"><img src="assets/img/excel-removebg-preview.png" alt="Excel Icon" /></div>
+          <div class="skills__item"><img src="assets/img/html-removebg-preview.png" alt="HTML Icon" /></div>
+          <div class="skills__item"><img src="assets/img/css-removebg-preview.png" alt="CSS Icon" /></div>
+          
+          <div class="skills__item"><img src="assets/img/pythonjpg-removebg-preview.png" alt="Python Icon" /></div>
+          <div class="skills__item"><img src="assets/img/sql-removebg-preview.png" alt="SQL Icon" /></div>
+          <div class="skills__item"><img src="assets/img/powerbi.png" alt="Power BI Icon" /></div>
+          <div class="skills__item"><img src="assets/img/excel-removebg-preview.png" alt="Excel Icon" /></div>
+          <div class="skills__item"><img src="assets/img/html-removebg-preview.png" alt="HTML Icon" /></div>
+          <div class="skills__item"><img src="assets/img/css-removebg-preview.png" alt="CSS Icon" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!--===============  What I Do ===============-->
+    <section class="services section container" id="services">
+      <h2 class="section__title">What I do_</h2>
+      <div class="services__container grid">
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/data-visualization-2452319-2029973-removebg-preview.png" 
+              alt="Data Visualization Icon"
+              class="services__icon"
+            />
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">DATA VISUALIZATION</h3>
+          <p class="services__detail">I help organizations make smarter decisions
+            by turning raw data into clear, actionable insights — using tools 
+            like Excel, Power BI, and Python.</p>
+        </div>
+
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/survey_analysis-removebg-preview.png" 
+              alt="Survey Analysis Icon"
+              class="services__icon"
+            />
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">SURVEY ANALYSIS</h3>
+          <p class="services__detail">I specialize in extracting insights from 
+            unstructured data like YouTube comments and survey responses using
+            natural language processing.</p>
+        </div>
+
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/dashboard-icon-style-free-vector.jpg" 
+              alt="Dashboard Icon"
+              class="services__icon"
+            />
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">INTERACTIVE DASHBOARDS</h3>
+          <p class="services__detail">I build interactive, insightful dashboards
+            in Power BI to track KPIs, trends, and business performance in real-time.
+          </p>
+        </div>
+
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/portfolio-icon-removebg-preview.png" 
+              alt="Portfolio Icon"
+              class="services__icon"
+            />
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">WEB-BASED PORTFOLIO PROJECTS</h3>
+          <p class="services__detail">I create simple, responsive web portfolios
+            using HTML, CSS, and JavaScript to showcase personal and academic
+            projects.</p>
+        </div>
+
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/problem-solving.png" 
+              alt="Problem Solving Icon"
+              class="services__icon"
+            />
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">RESEARCH AND PROBLEM SOLVING</h3>
+          <p class="services__detail">I apply critical thinking and analytical
+            frameworks to tackle real-world problems, particularly in agriculture 
+            and sustainability.</p>
+        </div>
+
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/agritech-removebg-preview.png" 
+              alt="Survey Analysis Icon"
+              class="services__icon"
+            />
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">AGRI-TECH DATA CONSULTING (JUNIOR)</h3>
+          <p class="services__detail">I’m passionate about solving problems in 
+            the agriculture sector. I offer early-stage research, data-driven 
+            recommendations, and project ideation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== The Journey  ===============-->
+    <section class="section container" id="experience">
+      <h2 class="section__title">The Journey_</h2>
+
+      <div class="experience__container grid">
+        <div class="experience__data">
+          <h3 class="experience__title text-sm">EDUCATION</h3>
+
+          <div class="experience__item">
+            <h3 class="experience__subtitle text-sm">FAITH ACADEMY GOSHEN</h3>
+            <p class="experience__date text-sm">2017 - 2023</p>
+            <p class="experience__degree text-lg">High School Diploma</p>
+            <p class="experience__description text-sm">Graduated with a focus on 
+              science subjects, including Mathematics, Physics, and Computer Science. 
+              Developed a strong foundation in analytical thinking and problem-solving.</p>
+          </div>
+
+          <div class="experience__item">
+            <h3 class="experience__subtitle text-sm">FEDERAL UNIVERSITY OF TECHNOLOGY AKURE</h3>
+            <p class="experience__date text-sm">2023 - 2024</p>
+            <p class="experience__degree text-lg">Bachelor's Degree in Software Engineering</p>
+          </div>
+
+          <div class="experience__item">
+            <h3 class="experience__subtitle text-sm">AFRICAN LEADERSHIP UNIVERSITY</h3>
+            <p class="experience__date text-sm">Expected Graduation: 2027</p>
+            <p class="experience__degree text-lg">BSc (Hons) in Software Engineering</p>
+            <p class="experience__description text-sm">Pursuing a degree in Software 
+              Engineering with a focus on data analysis, real-world problem-solving, 
+              and professional development through the PFP. Skilled in Python, 
+              SQL, Power BI, HTML/CSS, and JavaScript.</p>
+          </div>
+        </div>
+
+        <div class="experience__data">
+          <h3 class="experience__title text-sm">EXPERIENCE</h3>
+
+          <div class="experience__item">
+            <h3 class="experience__subtitle text-sm">AFRICAN LEADERSHIP UNIVERSITY</h3>
+            <p class="experience__date text-sm">Sep 2024 - Nov 2024</p>
+            <p class="experience__degree text-lg">Team Lead</p>
+            <p class="experience__description text-sm">Led cross-functional 
+              student teams in executing data-focused and software-related 
+              projects, driving collaboration, delegation, and delivery of 
+              impactful solutions. Acted as the bridge between technical 
+              execution and team coordination, ensuring deadlines were met and 
+              quality standards upheld.</p>
+          </div>
+
+          <div class="experience__item">
+            <h3 class="experience__subtitle text-sm">BRAINWAVE SOLUTIONS</h3>
+            <p class="experience__date text-sm">Jan 2025 - Mar 2025</p>
+            <p class="experience__degree text-lg">Data Analyst Intern</p>
+            <p class="experience__description text-sm">Worked on real-world 
+              data analysis projects, applying tools like Python, Excel, PowerBI 
+              and SQL to extract insights from large datasets. Developed 
+              interactive dashboards in Power BI to visualize key metrics and 
+              trends, enhancing decision-making processes for clients.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+    <!--=============== Talk to Me  ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__content container">
+        <h2 class="section__title">Let's Talk_</h2>
+        
+        <div class="contact__container grid">
+          <div class="contact__info">
+            <dl class="contact__list">
+              <dt>Phone:</dt>
+              <dd>+234 704 9547 831
+                +250 796 164 215</dd>
+              </dd>
+              <dt>Email:</dt>
+              <dd>shadec137@gmail.com</dd>
+              <dt>WhatsApp:</dt>
+              <dd>+234 704 9547 831</dd>
+            </dl>
+
+            <ul class="contact__socials">
+              <li>
+                <a href="https://www.linkedin.com/in/ayomide-adeleye-217a8736b" class="contact__social-link">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://github.com/Aadeleye11" class="contact__social-link">GitHub</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/Shadrach137" class="contact__social-link">Twitter</a>
+              </li>
+              <li>
+                <a href="https://ig.me/shadayo.o" class="contact__social-link">Instagram</a>
+              </li>
+            </ul>
+              
+          </div>
+
+          <div class="contact__form">
+            <p class="contact__form-title">Or get in touch directly here_</p>
+
+            <form action="" id="contact-form">
+              <div class="contact__input-div">
+                <input 
+                  type="text" 
+                  name="name"
+                  class="contact__input" 
+                  placeholder="Your Name" 
+                  id="contact__name"
+                />
+              </div>
+
+              <div class="contact__input-div">
+                <input 
+                  type="email" 
+                  name="email"
+                  class="contact__input" 
+                  placeholder="Your e-mail" 
+                  id="contact__email"
+                />
+              </div>
+
+              <div class="contact__input-div">
+                <textarea 
+                  name="message"
+                  placeholder="Type the message here" 
+                  class="contact__input textarea" 
+                  cols="30" 
+                  rows="10"
+                ></textarea>
+              </div>
+
+              <p class="contact__message text-sm"
+              id="contact__message">
+                Message
+              </p>
+
+              <button type="submit" class="button contact__button">
+                SEND
+              </button>
+            </form>
+
+            <p class="footer__copy">© 2024 Shadrach Adeleye. All rights reserved.</p>
+          </div> 
+        </div>
+      </div>
+    </section>
+      
+  </main>
+
+  
+  <!--=============== Email JS  ===============-->
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+
+  <!--===============  JS ===============-->
+  <script src="script.js"></script>
+</body>
+</html>
