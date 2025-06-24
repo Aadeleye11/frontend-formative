@@ -492,3 +492,49 @@ input {
 
 .experience__item::before {
   content: '';` (truncated)}]}
+
+/*=============== Contact ===============*/
+.contact__container {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.75rem;
+}
+
+.contact__title {
+  font-size: var(--fs-lg);
+  margin-bottom: 0.9rem;
+  font-weight: var(--semi-bold);
+  color: var(--title-color);
+}
+
+.contact__form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact__input,
+.contact__textarea {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+  font-family: var(--roboto-font);
+  font-size: var(--fs-base);
+  border-radius: 0.25rem;
+  resize: none;
+  color: var(--text-color);
+}
+
+.contact__textarea {
+  height: 10rem;
+}
+
+.contact__button {
+  margin-top: 1rem;
+}
+
+/*=============== Footer ===============*/
+.footer {
+  padding: 2rem 0;
+  background-color: var(--bg-color-alt);
+  text-align: center;
+  font-size: var(--fs-sm);
+  color: var(--text-color-alt);
+}
